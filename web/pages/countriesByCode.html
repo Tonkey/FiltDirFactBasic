@@ -1,0 +1,21 @@
+<p>This is the second Table of three in exercise 4, these tables have been routed to different html sites due to the amount of information in each table!</p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Native Name</th>
+        <th>Numeric Code</th>
+        <th>Population</th>
+        <th>Region</th>
+        <th>Relevance</th>
+        <th>Sub Region</th>
+    </tr>
+    <tr ng-repeat="country in countryByCode">
+        <td>{{country.name}}</td>
+        <td>{{country.nativeName}}</td>
+        <td>{{country.numericCode}}</td>
+        <td>{{country.population}}</td>
+        <td>{{country.region}}</td>
+        <td>{{country.relevance}}</td>
+        <td>{{country.subregion}}</td>
+    </tr>
+</table>

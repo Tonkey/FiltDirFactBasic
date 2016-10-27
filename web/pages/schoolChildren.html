@@ -1,0 +1,4 @@
+<p>this exercise filters out every person that is not between the ages 6-15!</p>
+<ul ng-repeat="person in myCtrl.persons| schoolAge">
+    <li>{{person.name}}, {{person.gender}}, {{person.age}}</li>
+</ul>
